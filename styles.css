@@ -1,9 +1,10 @@
 /* 
 color schemes
-#000000
-#da1a32
-#ffffff
-#a00c30
+#d4d4d4
+#707070
+#1f1f1f
+#731010
+#a80000
 */
 
 body {
@@ -11,8 +12,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #000;
-    color: #fff;
+    background: #1f1f1f;
+    color: #d4d4d4;
 }
 
 .container {
@@ -21,14 +22,9 @@ body {
     overflow: hidden;
 }
 
-
-.logo {
-    max-width: 100px;
-  }
-
 header {
-    background: #da1a32;
-    color: #fff;
+    background: #a80000;
+    color: #d4d4d4;
     padding: 20px 0;
     text-align: left ;
 }
@@ -54,17 +50,17 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin: 0 15px;
-    color: #000;
+    color: #1f1f1f;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #d4d4d4;
     text-decoration: none;
     
 }
 
 header nav ul li a:hover {
-    color: #000;
+    color: #1f1f1f;
     
 }
 
@@ -86,7 +82,7 @@ header nav ul li input[type=text] {
       padding: 14px;
     }
     .header input[type=text] {
-      border: 1px solid #ccc;
+      border: 1px solid #d4d4d4;
     }
   }
 
@@ -106,7 +102,7 @@ section h2 {
 }
 
 #Links ul li {
-    background: #f4f4f4;
+    background:#d4d4d4;
     margin: 5px 0;
     padding: 10px;
     border-left: 5px solid #333;
@@ -118,7 +114,7 @@ section h2 {
 }
 
 #Sections ul li {
-    background: #f4f4f4;
+    background: #d4d4d4;
     margin: 5px 0;
     padding: 10px;
     border-left: 5px solid #333;
@@ -140,16 +136,20 @@ section h2 {
     margin-right: 10px;
 }
 
+hr {
+    color: #a80000;
+}
+
 footer {
-    background: #000;
-    color: #fff;
+    background: #1f1f1f;
+    color: #d4d4d4;
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
 }
 
 footer .social-links a {
-    color: #fff;
+    color: #d4d4d4;
     text-decoration: none;
     margin: 0 10px;
 }
