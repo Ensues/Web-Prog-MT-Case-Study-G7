@@ -120,7 +120,15 @@ section h2 {
     border-left: 5px solid #333;
 }
 
+table, th, td {
+    border-collapse: collapse;
+    padding: 15px;
+    font-size: 30px;
+}
 
+h1 { 
+    font-size: 45px;
+}
 
 .Etc {
     margin-bottom: 20px;
