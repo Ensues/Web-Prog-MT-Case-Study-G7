@@ -123,11 +123,15 @@ section h2 {
 table, th, td {
     border-collapse: collapse;
     padding: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h1 { 
-    font-size: 45px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .Etc {
