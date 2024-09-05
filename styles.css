@@ -7,6 +7,8 @@ color schemes
 #a80000
 */
 
+/* Everyone VVV */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -22,8 +24,26 @@ body {
     overflow: hidden;
 }
 
+hr {
+    color: #a80000;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+h1:hover { 
+    color: #a80000;
+}
+
+h3:hover {
+    color: #a80000;
+}
+
+/* Eric VVV */
+
 header {
-    background: #a80000;
+    background: #181717;
     color: #d4d4d4;
     padding: 20px 0;
     text-align: left ;
@@ -60,12 +80,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #1f1f1f;
+    color: #a80000;
     
 }
 
 header nav ul li input[type=text] {
-    padding: 6px;
+    padding: 10px;
     border: none;
     margin-top: 8px;
     margin-right: 16px;
@@ -79,78 +99,12 @@ header nav ul li input[type=text] {
       text-align: left;
       width: 100%;
       margin: 0;
-      padding: 14px;
+      padding: 10px;
     }
     .header input[type=text] {
       border: 1px solid #d4d4d4;
     }
   }
-
-
-section {
-    padding: 30px 0;
-}
-
-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-#Links ul {
-    list-style: none;
-    padding: 0;
-}
-
-#Links ul li {
-    background:#d4d4d4;
-    margin: 5px 0;
-    padding: 10px;
-    border-left: 5px solid #333;
-}
-
-#Sections ul {
-    list-style: none;
-    padding: 0;
-}
-
-#Sections ul li {
-    background: #d4d4d4;
-    margin: 5px 0;
-    padding: 10px;
-    border-left: 5px solid #333;
-}
-
-table, th, td {
-    border-collapse: collapse;
-    padding: 15px;
-    font-size: 25px;
-}
-
-h1 { 
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-.Etc {
-    margin-bottom: 20px;
-}
-
-.Etc h3 {
-    margin-top: 0;
-}
-
-.Etc a {
-    color: #333;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-hr {
-    color: #a80000;
-}
 
 footer {
     background: #1f1f1f;
@@ -164,4 +118,36 @@ footer .social-links a {
     color: #d4d4d4;
     text-decoration: none;
     margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #a80000;
+}
+
+
+/* Irish & Allen VVV */
+
+
+.About-Us {
+    margin-bottom: 20px;
+}
+
+.About-Us h3 {
+    margin-top: 0;
+}
+
+.About-Us a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 15px;
+    font-size: 25px;
+}
+
+th:hover {
+    color: #a80000;
 }
