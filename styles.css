@@ -11,15 +11,17 @@ color schemes
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
     background: #1f1f1f;
     color: #d4d4d4;
+    overflow-x: hidden;
 }
 .container {
     width: 80%;
+    height: 80%;
     margin: 0 auto;
+    align-items: center;
     overflow: hidden;
 }
 hr {
@@ -27,7 +29,6 @@ hr {
 }
 h1 { 
     font-size: 40px;
-    padding-top: 30px;
 }
 h1:hover { 
     color: #a80000;
@@ -39,6 +40,7 @@ h3:hover {
 /* Eric VVV */
 
 /* Header */
+
 header {
     background: #181717;
     color: #d4d4d4;
@@ -91,7 +93,30 @@ header nav ul li input[type=text] {
     }
   }
 
-  /* Footer */
+/* Current Events Section */
+
+#Current-Events h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+#Current-Events p{
+    
+}
+
+/* News Service Section */
+
+#News-Service h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+#News-Service p{
+
+}
+
+
+/* Footer */
 
 footer {
     background: #1f1f1f;
