@@ -17,69 +17,59 @@ body {
     background: #1f1f1f;
     color: #d4d4d4;
 }
-
 .container {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
 }
-
 hr {
     color: #a80000;
 }
-
 h1 { 
     font-size: 40px;
+    padding-top: 30px;
 }
-
 h1:hover { 
     color: #a80000;
 }
-
 h3:hover {
     color: #a80000;
 }
 
 /* Eric VVV */
 
+/* Header */
 header {
     background: #181717;
     color: #d4d4d4;
     padding: 20px 0;
     text-align: left ;
 }
-
 header h1 {
     margin: 0;
     font-size: 2.5em;
 }
-
 header p {
     margin: 0.5em 0;
 }
-
 header nav ul {
     padding: 0;
     list-style: none;
 }
-
 header nav ul li {
     display: inline;
     margin: 0 15px;
     color: #1f1f1f;
 }
-
 header nav ul li a {
     color: #d4d4d4;
     text-decoration: none;
     
 }
-
 header nav ul li a:hover {
     color: #a80000;
     
 }
-
 header nav ul li input[type=text] {
     padding: 10px;
     border: none;
@@ -87,7 +77,6 @@ header nav ul li input[type=text] {
     margin-right: 16px;
     font-size: 17px;
   }
-
 @media screen and (max-width: 600px) {
     .header a, .header input[type=text] {
       float: none;
@@ -102,6 +91,8 @@ header nav ul li input[type=text] {
     }
   }
 
+  /* Footer */
+
 footer {
     background: #1f1f1f;
     color: #d4d4d4;
@@ -109,13 +100,11 @@ footer {
     padding: 20px 0;
     margin-top: 30px;
 }
-
 footer .social-links a {
     color: #d4d4d4;
     text-decoration: none;
     margin: 0 10px;
 }
-
 footer .social-links a:hover {
     color: #a80000;
 }
@@ -127,23 +116,19 @@ footer .social-links a:hover {
 .About-Us {
     margin-bottom: 20px;
 }
-
 .About-Us h3 {
     margin-top: 0;
 }
-
 .About-Us a {
     color: #333;
     text-decoration: none;
     margin-right: 10px;
 }
-
 table, th, td {
     border-collapse: collapse;
     padding: 15px;
     font-size: 25px;
 }
-
 th:hover {
     color: #a80000;
 }
