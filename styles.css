@@ -152,6 +152,12 @@ clear: both;
     margin-right: auto;
     width: 50%;
 }
+#News-Service .column2{
+    text-align: center;
+}
+#News-Service .column2:hover{
+    color: #a80000;
+}
 
 /* Footer */
 
