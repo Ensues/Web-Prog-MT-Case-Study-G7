@@ -207,3 +207,109 @@ table, th, td {
 th:hover {
     color: #a80000;
 }
+.email-submit {
+    background-color: #2f2f2f;
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.email-submit h4 {
+    color: #d4d4d4;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.email-submit input[type="email"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    width: 180px;
+}
+.email-submit input[type="submit"] {
+    background-color: #a80000;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.email-submit input[type="submit"]:hover {
+    background-color: #731010;
+}
+.email-submit .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    background-color: #a80000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: auto;
+    width: 80%;
+}
+ul span{
+    text-align: justify;
+}
+
+ul ul {
+    display: none;
+}
+
+ul ul a:link, ul ul a:visited {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+ul ul a:hover {
+    color: #a80000;
+}
+
+ul ul a:focus, ul ul a:active {
+    color: #d4d4d4; 
+}
+li a:link, li a:visited {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+li a:hover {
+    color: #a80000;
+}
+
+.list-item {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.list-item:hover {
+    color: #d4d4d4;
+}
+
+.nested-list {
+    margin-left: 20px;
+}
+
+.list-item::before {
+    content: "▶"; 
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+
+.list-item.active::before {
+    transform: rotate(90deg);
+}
