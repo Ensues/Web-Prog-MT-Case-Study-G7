@@ -27,7 +27,7 @@ hr {
     color: #a80000;
 }
 h1 { 
-    font-size: clamp(2rem, 5vw + 1rem, 3rem);
+    font-size: 2.5vw;
     text-align: center;
 }
 h1:hover { 
@@ -49,7 +49,7 @@ header {
 }
 header h1 {
     margin: 0;
-    font-size: clamp(2rem, 4vw, 2.5rem); 
+    font-size: 2vw;
 }
 header p {
     margin: 0.5em 0;
@@ -77,7 +77,7 @@ header nav ul li input[type=text] {
     border: none;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 1rem;
+    font-size: 1vw;
   }
 @media screen and (max-width: 600px) {
     .header a, .header input[type=text] {
@@ -96,8 +96,7 @@ header nav ul li input[type=text] {
 /* Current Events Section */
 
 #Current-Events h1{
-    font-size: clamp(2rem, 5vw, 2.5rem);
-    padding-top: 30px;
+    font-size: 2.5vw;
 }
 #Current-Events a{
     color: #d4d4d4;
@@ -108,10 +107,15 @@ header nav ul li input[type=text] {
 }
 #Current-Events .column1 {
     padding-top: 30px;
+    float: left;
+}
+#Current-Events img{
+    height: auto;
 }
 #Current-Events p{
     text-align: justify;
-    font-size: clamp(1rem, 3vw, 1.5rem); 
+    font-size: 1.5vw;
+    float: right;
 }
 
 @media (min-width: 768px) {
@@ -143,27 +147,32 @@ clear: both;
 /* News Service Section */
 
 #News-Service h1{
-    font-size: clamp(2rem, 5vw, 2.5rem);
-    padding-top: 30px;
+    font-size: 2.5vw;
 }
 #News-Service .column1{
     padding-top: 30px;
     float: left;
-    width: 40%;
+    width: 60%;
     text-align: justify;
-    font-size: clamp(1rem, 3vw, 1.5rem); 
+    font-size: 1.5vw;
+}
+#News-Service .column1 a{
+    text-align: center;
+    text-decoration: none;
+    color:#d4d4d4;
+}
+#News-Service .column1 a:hover{
+    color: #a80000;
+}
+#News-Service img{
+    height: auto;
+    max-width: 30%;
 }
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-#News-Service .column2{
-    text-align: center;
-}
-#News-Service .column2:hover{
-    color: #a80000;
 }
 
 /* Footer */
