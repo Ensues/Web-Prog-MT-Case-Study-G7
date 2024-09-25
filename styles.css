@@ -95,6 +95,7 @@ header nav ul li input[type=text] {
 
 #Current-Events {
     font-size: clamp(15px, 1.5vw, 27px);
+    
 }
 
 #Current-Events h1{
@@ -198,7 +199,7 @@ footer .social-links a:hover {
 
 /* Tyron VVV */
 
-
+/*About Us section*/
 .About-Us {
     margin-bottom: 20px;
 }
@@ -214,10 +215,13 @@ table, th, td {
     border-collapse: collapse;
     padding: 15px;
     font-size: 25px;
+    text-align: center;
 }
 th:hover {
     color: #a80000;
 }
+
+/*Join our Email List*/
 .email-submit {
     background-color: #2f2f2f;
     padding: 10px;
@@ -268,13 +272,18 @@ th:hover {
     height: 20px;
     cursor: pointer;
 }
+
+/*List*/
+
 ul {
     list-style-type: none;
     padding-left: 20px;
     margin: auto;
     width: 80%;
+    color: #ffc632;
 }
-ul span{
+
+ul span {
     text-align: justify;
 }
 
@@ -283,23 +292,26 @@ ul ul {
 }
 
 ul ul a:link, ul ul a:visited {
-    color: #d4d4d4;
+    color: #ffc632;
     text-decoration: none;
 }
 
 ul ul a:hover {
-    color: #a80000;
+    color: #ffc632;
 }
 
 ul ul a:focus, ul ul a:active {
     color: #d4d4d4; 
 }
+
+
 li a:link, li a:visited {
-    color: #d4d4d4;
+    color: #ffc632; 
     text-decoration: none;
 }
+
 li a:hover {
-    color: #a80000;
+    color: #ffc632;
 }
 
 .list-item {
@@ -308,7 +320,7 @@ li a:hover {
 }
 
 .list-item:hover {
-    color: #d4d4d4;
+    color: #ffc632; 
 }
 
 .nested-list {
@@ -323,4 +335,70 @@ li a:hover {
 
 .list-item.active::before {
     transform: rotate(90deg);
+}
+
+/*Links Container*/
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float:left;
+    width: 48%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    vertical-align: top;
+    
+  }
+  
+  .left {
+    left: 0;
+    margin-top: 20px;
+  }
+  
+  .right {
+    right: 0;
+    margin-left: 50px;
+  }
+  
+  .links-sections-container:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  /*Social Media Links*/
+  .social-icons {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f00;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(2.1);
+}
+
+.icon img {
+    width: 70%;
+    height: auto;
 }
