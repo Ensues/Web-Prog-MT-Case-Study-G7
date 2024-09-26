@@ -98,6 +98,7 @@ header nav ul li input[type=text] {
     font-size: clamp(15px, 1.5vw, 27px);
     
 }
+
 #Current-Events h1{
     font-size: clamp(15px, 2.5vw, 50px);
 }
@@ -120,6 +121,7 @@ header nav ul li input[type=text] {
 
     float: right;
 }
+
 @media (min-width: 768px) {
     #Current-Events .column1 {
         float: left;
@@ -220,7 +222,7 @@ table, th, td {
 }
 
 th:hover {
-    color: var(--red);
+    color: red;
 }
 
 /* Join our Email List */
@@ -238,7 +240,7 @@ th:hover {
 }
 
 .email-submit h4 {
-    color: var(--light-gray);
+    color: #ffc632;
     font-size: clamp(1rem, 1.5vw, 1.25rem);
     margin: 0 0 0.5rem;
 }
@@ -246,13 +248,13 @@ th:hover {
 .email-submit input[type="email"] {
     padding: 0.5rem;
     font-size: clamp(0.8rem, 1vw, 1rem);
-    border: 1px solid var(--medium-gray);
+    border: 1px solid gray;
     border-radius: 3px;
     width: 180px;
 }
 
 .email-submit input[type="submit"] {
-    background-color: var(--red);
+    background-color: #ffc632;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -263,7 +265,7 @@ th:hover {
 }
 
 .email-submit input[type="submit"]:hover {
-    background-color: var(--dark-red);
+    background-color: darkred;
 }
 
 .email-submit .close-btn {
@@ -271,8 +273,8 @@ th:hover {
     top: 5px;
     right: 5px;
     font-size: 0.8rem;
-    background-color: var(--red);
-    color: white;
+    background-color: #ffc632;
+    color: red;
     border: none;
     border-radius: 50%;
     width: 20px;
@@ -307,7 +309,7 @@ ul ul a:hover {
 }
 
 ul ul a:focus, ul ul a:active {
-    color: var(--light-gray);
+    color: #d4d4d4;
 }
 
 li a:link, li a:visited {
