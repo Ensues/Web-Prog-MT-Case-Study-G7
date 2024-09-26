@@ -96,7 +96,6 @@ header nav ul li input[type=text] {
 #Current-Events {
     font-size: clamp(15px, 1.5vw, 27px);
 }
-
 #Current-Events h1{
     font-size: clamp(15px, 2.5vw, 50px);
 }
@@ -119,7 +118,6 @@ header nav ul li input[type=text] {
 
     float: right;
 }
-
 @media (min-width: 768px) {
     #Current-Events .column1 {
         float: left;

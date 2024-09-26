@@ -11,7 +11,7 @@
         <!-- Header Section -->
         <header>
             <div class="container">
-                <img src="images/usasoc.png" style="width:3.9vw; float:left">
+                <img src="images/usasoc.png" style="width:3.9vw; height: auto; float:left">
                 <h1>United States Army Special Operations Command</h1>
                 <nav>
                     <ul>
@@ -78,7 +78,6 @@
                         <th>Podcasts</th>
                         <th>Social Medias</th>
                     </tr>
-                    
                     <tr align="center">
                         <td><a href="https://www.soc.mil/temp-pages/strategy/ARSOF_STRATEGY_2030.pdf" target="_blank"><img src="images/strategy-img.png" width="200px" alt="ARSOF Strategy book cover image"></a></td>
                         <td>
@@ -106,7 +105,6 @@
                         <br>Please contact your chain of command for further guidance.
                         For the latest USASOC guidance and news, please click here.</p>
                     <br>
-                    
                     <a href="https://www.flickr.com/photos/usasoc/"><img src="images/News.jpg" alt="USASOCNews"></a>
                     <br>
                     <a href="https://www.flickr.com/photos/usasoc/">Go to USASOC News Service's Photostream</a>
@@ -121,7 +119,6 @@
                     </div>
                     <br>
                 </div>
-                
                 <div style="text-align: center;">
                     <h3 style="font-size: x-large;">USASOC Links</h3>
                     <ul style="text-align: justify; ">
@@ -245,7 +242,6 @@
                 <hr>
                 <div style="text-align: center;">
                     <h3 style="font-size: x-large;">USASOC Sections</h3>
-
                     <ul style="text-align: justify;">
                         <li><a href="https://www.soc.mil/Memorial%20Wall/USASOC%20Fallen%20Heroes%20Home%20Page.html">Memory Wall</a></li>
                         <li class="list-item">FOIA
@@ -286,7 +282,6 @@
                                 <li><a href="https://www.soc.mil/Whitepapers/30%2010%2014_The%20Art%20and%20Design%20of%20the%20SO%20Campaign%20(PAO%20clear).pdf">The Art / Design of the SO Campaign</a></li>
                             </ul>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -296,7 +291,7 @@
             <hr>
             <br>
             <div class="container">
-                <img src="images/U.S.-Army-Logo.png" style="width:5vw; float:right">
+                <img src="images/U.S.-Army-Logo.png" style="width:5vw;height: auto; float:right">
                 <div class="social-links">
                     <a href="https://www.soc.mil/AssortedPages/DODwarning.html">VPN / OWA / Portal </a>
                     <a href="https://www.soc.mil/Required/Contact.html">Contact Us </a>
@@ -316,14 +311,10 @@
         </script>
         <script>
             const listItems = document.querySelectorAll(".list-item");
-        
             listItems.forEach(item => {
                 item.addEventListener("click", function(event) {
-                
                     event.stopPropagation();
                     this.classList.toggle("active");
-        
-
                     const nestedList = this.querySelector(".nested-list");
                     if (nestedList) {
                         nestedList.style.display = nestedList.style.display === "block" ? "none" : "block";
