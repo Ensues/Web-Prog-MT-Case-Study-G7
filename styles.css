@@ -5,6 +5,7 @@ color schemes
 #1f1f1f
 #731010
 #a80000
+#ffc632
 */
 
 /* Everyone VVV */
@@ -95,6 +96,7 @@ header nav ul li input[type=text] {
 
 #Current-Events {
     font-size: clamp(15px, 1.5vw, 27px);
+    
 }
 #Current-Events h1{
     font-size: clamp(15px, 2.5vw, 50px);
@@ -192,33 +194,39 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #a80000;
 }
-
-
-/* Tyron VVV */
-
-
-.About-Us {
-    margin-bottom: 20px;
+/* About Us Section */
+#About-Us {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    margin-bottom: 1rem;
+    overflow: hidden;
 }
+
 .About-Us h3 {
     margin-top: 0;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
+
 .About-Us a {
     color: #333;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
+
 table, th, td {
     border-collapse: collapse;
-    padding: 15px;
-    font-size: 25px;
+    padding: 1rem;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    text-align: center;
 }
+
 th:hover {
-    color: #a80000;
+    color: var(--red);
 }
+
+/* Join our Email List */
 .email-submit {
     background-color: #2f2f2f;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 5px;
     width: 280px;
     text-align: center;
@@ -228,37 +236,42 @@ th:hover {
     right: 20px;
     z-index: 1000;
 }
+
 .email-submit h4 {
-    color: #d4d4d4;
-    font-size: 16px;
-    margin: 0 0 10px;
+    color: var(--light-gray);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    margin: 0 0 0.5rem;
 }
+
 .email-submit input[type="email"] {
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #707070;
+    padding: 0.5rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    border: 1px solid var(--medium-gray);
     border-radius: 3px;
     width: 180px;
 }
+
 .email-submit input[type="submit"] {
-    background-color: #a80000;
+    background-color: var(--red);
     color: #fff;
     border: none;
-    padding: 8px 12px;
-    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     border-radius: 3px;
     cursor: pointer;
     margin-left: 5px;
 }
+
 .email-submit input[type="submit"]:hover {
-    background-color: #731010;
+    background-color: var(--dark-red);
 }
+
 .email-submit .close-btn {
     position: absolute;
     top: 5px;
     right: 5px;
-    font-size: 12px;
-    background-color: #a80000;
+    font-size: 0.8rem;
+    background-color: var(--red);
     color: white;
     border: none;
     border-radius: 50%;
@@ -266,13 +279,17 @@ th:hover {
     height: 20px;
     cursor: pointer;
 }
+
+/* List */
 ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 1rem;
     margin: auto;
-    width: 80%;
+    width: 90%;
+    color: #ffc632;
 }
-ul span{
+
+ul span {
     text-align: justify;
 }
 
@@ -281,44 +298,107 @@ ul ul {
 }
 
 ul ul a:link, ul ul a:visited {
-    color: #d4d4d4;
+    color: #ffc632;
     text-decoration: none;
 }
 
 ul ul a:hover {
-    color: #a80000;
+    color: #ffc632;
 }
 
 ul ul a:focus, ul ul a:active {
-    color: #d4d4d4; 
+    color: var(--light-gray);
 }
+
 li a:link, li a:visited {
-    color: #d4d4d4;
+    color: #ffc632;
     text-decoration: none;
 }
+
 li a:hover {
-    color: #a80000;
+    color: #ffc632;
 }
 
 .list-item {
     cursor: pointer;
-    margin: 5px 0;
+    margin: 0.5rem 0;
 }
 
 .list-item:hover {
-    color: #d4d4d4;
+    color: #ffc632;
 }
 
 .nested-list {
-    margin-left: 20px;
+    margin-left: 1rem; 
 }
 
 .list-item::before {
     content: "▶"; 
-    margin-right: 5px;
+    margin-right: 0.5rem; 
     transition: transform 0.3s;
 }
 
 .list-item.active::before {
     transform: rotate(90deg);
+}
+
+/* Links Container */
+.split {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.left {
+    left: 0;
+    margin-top: 29px;
+}
+
+.right {
+    right: 0;
+}
+
+.links-sections-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Social Media Links */
+.social-icons {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 31, 31, 0.9);
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon img {
+    width: 70%;
+    height: auto;
 }
