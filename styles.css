@@ -118,7 +118,7 @@ header nav ul li input[type=text] {
 }
 #Current-Events p{
     text-align: justify;
-
+    padding-top: 30px;
     float: right;
 }
 
