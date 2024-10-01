@@ -118,7 +118,7 @@ header nav ul li input[type=text] {
 }
 #Current-Events p{
     text-align: justify;
-    padding-top: 30px;
+
     float: right;
 }
 
@@ -220,7 +220,42 @@ table, th, td {
     font-size: clamp(1rem, 2vw, 1.25rem);
     text-align: center;
 }
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    table-layout: fixed;
+    text-align: center;
+}
+.th,
+.td {
+    text-align: center;
+    padding: 15px;
+    vertical-align: top;
+}
 
+.th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+@media screen and (max-width: 768px) {
+    .th, .td {
+        display: block;
+        width: 100%;
+    }
+}
 th:hover {
     color: red;
 }
@@ -238,13 +273,11 @@ th:hover {
     right: 20px;
     z-index: 1000;
 }
-
 .email-submit h4 {
     color: #ffc632;
     font-size: clamp(1rem, 1.5vw, 1.25rem);
     margin: 0 0 0.5rem;
 }
-
 .email-submit input[type="email"] {
     padding: 0.5rem;
     font-size: clamp(0.8rem, 1vw, 1rem);
@@ -252,7 +285,6 @@ th:hover {
     border-radius: 3px;
     width: 180px;
 }
-
 .email-submit input[type="submit"] {
     background-color: #ffc632;
     color: #fff;
@@ -263,11 +295,9 @@ th:hover {
     cursor: pointer;
     margin-left: 5px;
 }
-
 .email-submit input[type="submit"]:hover {
     background-color: darkred;
 }
-
 .email-submit .close-btn {
     position: absolute;
     top: 5px;
@@ -360,11 +390,12 @@ li a:hover {
 
 .left {
     left: 0;
-    margin-top: 29px;
+    margin-top: auto;
 }
 
 .right {
     right: 0;
+    margin-top: auto;
 }
 
 .links-sections-container:after {
