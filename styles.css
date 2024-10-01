@@ -250,9 +250,8 @@ table, th, td {
     margin-right: auto;
 }    
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .th, .td {
-        display: block;
         width: 100%;
     }
 }
