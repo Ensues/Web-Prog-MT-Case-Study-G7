@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open lec3practice.html",
+            "file": "c:\\Users\\irish\\OneDrive - Tarlac State University\\SCHOOL STUFF\\3RD YEAR\\1st Sem (2024-2025)\\WEBPROG\\Midterm\\LAB\\VSCODE\\PRACTICE\\lec3practice.html"
+        }
+    ]
+}
